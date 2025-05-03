@@ -1,3 +1,3 @@
 all:
-	cc `pkg-config openssl --libs --cflags` -o server server.c
-	cc `pkg-config openssl --libs --cflags` -o client client.c
+	cc `pkg-config openssl --libs --cflags` -g -o server server.c
+	cc `pkg-config openssl --libs --cflags` -g -o client client.c

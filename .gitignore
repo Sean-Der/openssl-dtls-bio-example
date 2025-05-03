@@ -1,5 +1,8 @@
 cert.pem
 client
+client.dSYM
 key.pem
 server
+server.dSYM
 server.csr
+
